@@ -1,4 +1,4 @@
-$50 Extra in #⟪💰⟫ㅣeconomy when used `/collect-income`
+$50 Extra in `#⟪💰⟫ㅣeconomy` when used `/collect-income`
 
 Able to type in #⟪💀⟫ㅣskullboard
 
