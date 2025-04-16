@@ -1,2 +1,1 @@
-# Kiwi-Nest
-https://discord.gg/TJKHw5nMSc
+https://discord.gg/TJKHw5nMSc 
