@@ -23,3 +23,7 @@
 `@Lv.45 - Discord Addiction`
 
 `@Lv.50 - Discord Degenerate`
+
+---
+
+ChatGPT came up with the names, don't judge -- if you want to suggest a new name, DM wndx2 (me).
