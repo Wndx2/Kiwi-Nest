@@ -1,1 +1,1 @@
-https://discord.gg/TJKHw5nMSc 
+A repository for storing stuffs from the Discord server 'Kiwi Nest'.
