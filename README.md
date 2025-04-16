@@ -1,1 +1,1 @@
-A repository for storing stuffs from the Discord server 'Kiwi Nest'.
+A repository for storing important stuffs from the Discord server 'Kiwi Nest'.
