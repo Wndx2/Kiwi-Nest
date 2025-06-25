@@ -24,7 +24,6 @@ for idx, ax in enumerate(axs.flat):
     ax.text(0.5, 0.5, f'{idx + 1}\n{hex_color.upper()}',
             color=text_color, ha='center', va='center',
             fontsize=18, fontfamily='sans-serif')
-
     ax.set_xticks([])
     ax.set_yticks([])
     ax.set_xlim(0, 1)
