@@ -35,3 +35,4 @@ plt.subplots_adjust(wspace=0, hspace=0, left=0, right=1, top=1, bottom=0)
 
 # Save the image (optional)
 plt.savefig("colors/rcotw.png", bbox_inches='tight', pad_inches=0)
+# plt.show()
