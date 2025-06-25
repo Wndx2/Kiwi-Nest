@@ -23,7 +23,7 @@ for idx, ax in enumerate(axs.flat):
     text_color = pick_text_color(hex_color)
     ax.text(0.5, 0.5, f'{idx + 1}\n{hex_color.upper()}',
             color=text_color, ha='center', va='center',
-            fontsize=18, fontfamily='sans-serif')
+            fontsize=18, fontfamily='SN Pro')
     ax.set_xticks([])
     ax.set_yticks([])
     ax.set_xlim(0, 1)
