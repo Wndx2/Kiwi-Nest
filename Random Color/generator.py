@@ -5,8 +5,15 @@ import matplotlib.pyplot as plt
 
 plt.rcParams['toolbar'] = 'none'
 
-def get_random_color():
-    return "#{:06x}".format(random.randint(0, 0xFFFFFF))
+def get_random_color(min_brightness=120):
+    while True:
+        hex_color = "#{:06x}".format(random.randint(0, 0xFFFFFF))
+        r = int(hex_color[1:3], 16)
+        g = int(hex_color[3:5], 16)
+        b = int(hex_color[5:7], 16)
+        brightness = 0.2126*r + 0.7152*g + 0.0722*b
+        if brightness >= min_brightness:
+            return hex_color
 
 def pick_text_color(bg_color):
     r = int(bg_color[1:3], 16)
