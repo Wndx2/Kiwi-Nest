@@ -56,8 +56,10 @@ for idx, ax in enumerate(axs.flat):
 # Removes spacing and margins between subplots.
 plt.subplots_adjust(wspace=0, hspace=0, left=0, right=1, top=1, bottom=0)
 
+randomnumber = random.randint()
+
 # Saves final image as 2025x2025 PNG in the "colors" folder.
-plt.savefig("colors/rcotw.png", bbox_inches='tight', pad_inches=0)
+plt.savefig("colors/rcotw{}.png", bbox_inches='tight', pad_inches=0)
 
 # Uncomment to preview the image interactively.
 # plt.show()
