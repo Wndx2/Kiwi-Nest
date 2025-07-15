@@ -3,12 +3,9 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import matplotlib.dates as mdates
 
-import os
-print(os.getcwd())
-
 plt.rcParams['toolbar'] = 'none'
 
-file = pd.read_csv('numberScroll/membercount.csv')
+file = pd.read_csv('membercount.csv')
 dates = pd.to_datetime(file['DATE'], dayfirst=True)
 member_counts = file['MEMBERCOUNT']
 days = file['DAY']
@@ -18,7 +15,7 @@ fig, ax = plt.subplots(figsize=(10 , 6))
 fig.canvas.manager.set_window_title('Kiwi Nest 2025 Member Growth')
 
 fig.patch.set_facecolor('#000000')
-ax.set_facecolor('#000000')  
+ax.set_facecolor('#000000')
 
 for spine in ax.spines.values():
     spine.set_visible(False)
