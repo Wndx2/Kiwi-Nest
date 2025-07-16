@@ -42,7 +42,7 @@ def update(frame):
     member_text.set_text(f'Member Count: {member_counts[frame-1]:,.0f}')
     return line, top_text, day_text, member_text
 
-ani = FuncAnimation(fig, update, frames=range(1, len(dates)+1), interval=100, blit=False, repeat=False)
+ani = FuncAnimation(fig, update, frames=range(1, len(dates)+1), interval=1, blit=False, repeat=False)
 # ani.save('server_traffic_growth.mp4', writer='ffmpeg', fps=30)
 # Uncomment line above to download it locally.
 plt.show()
